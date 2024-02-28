@@ -1,7 +1,25 @@
-export function App() {
+import Header from "./components/header"
+
+
+function App() {
+
+  const [movies, setMovies] = useState<IMovie[]>(data) 
+
+  const addMovie = (newMovie: IMovie) => {
+    setMovies((prev) => [...prev, newMovie])
+  }
+
   return (
-    <>
-      <h1>This is the App component</h1>
-    </>
+    <Router>
+      <div className="app">
+        <div className="container">
+          <Header />
+          
+        </div>
+      </div>
+    </Router>
   );
+    
 }
+
+export default App
