@@ -1,0 +1,45 @@
+@use "../abstracts/colors.scss" as *;
+
+.card {
+    height: 300px;
+    background-color: $russianGreen;
+    border-radius: .5rem;
+    display: grid;
+    grid-template-rows: 1fr 1fr 5fr;
+    .title-rating-wrapper {
+        padding: 1rem 1rem 0;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        .title {
+            font-size: 1.7rem;
+        }
+        .rating {
+            font-size: 1.7rem;
+            font-weight: bold;
+            color: $vermillion;
+        }
+    }
+    .genre {
+        padding: .5rem 1rem;
+        text-align: end;
+        span {
+        font-size: 1.5rem;
+        }
+    }
+
+    .description-wrapper {
+        // min-height: 250px;
+        padding: 1rem;
+        background-color: $light;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        .description {
+            font-size: 1.3rem; 
+            color: $dark;
+        }
+    }
+
+}
+
