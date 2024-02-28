@@ -2,10 +2,10 @@
 
 .card {
     height: 300px;
-    background-color: $russianGreen;
-    border-radius: .5rem;
+    background-color: $cardbg;
+    border-radius: 1.0rem;
     display: grid;
-    grid-template-rows: 1fr 1fr 5fr;
+    grid-template-rows: 1fr 1fr 6fr;
     .title-rating-wrapper {
         padding: 1rem 1rem 0;
         display: flex;
@@ -15,9 +15,9 @@
             font-size: 1.7rem;
         }
         .rating {
-            font-size: 1.7rem;
+            font-size: 1.5rem;
             font-weight: bold;
-            color: $vermillion;
+            color: $ratting;
         }
     }
     .genre {
@@ -31,13 +31,13 @@
     .description-wrapper {
         // min-height: 250px;
         padding: 1rem;
-        background-color: $light;
+        background-color: $cardbg;
         display: flex;
         justify-content: center;
         align-items: center;
         .description {
             font-size: 1.3rem; 
-            color: $dark;
+            color: $M-bg;
         }
     }
 

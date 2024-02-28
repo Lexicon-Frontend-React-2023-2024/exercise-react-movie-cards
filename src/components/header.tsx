@@ -11,6 +11,7 @@ const Header = () => {
         <Link to='/add' className="link">
           Add New Movie
         </Link>
+        
       </nav>
     </div>
   );

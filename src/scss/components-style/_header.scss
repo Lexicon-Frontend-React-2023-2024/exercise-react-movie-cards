@@ -6,16 +6,16 @@
     gap: 4rem;
     margin: 2rem 0;
     h1 {
-        color: $vermillion;
+        color: $ratting;
     }
     .navbar {
         .link {
-            color: $light;
+            color: $cardbg;
             margin: 0 1rem;
             padding: 1rem;
         }
         .link:hover {
-            color: $russianGreen;
+            color: $cardheader;
         }
     }
 }

@@ -6,7 +6,7 @@
     justify-content: center;
     align-items: center;
     padding: 2rem;
-    box-shadow: 0 0 10px 1px $russianGreen;
+    box-shadow: 0 0 10px 1px $cardheader;
     border-radius: .5rem;
     max-width: 700px;
     margin: 4rem auto 0;
@@ -63,17 +63,17 @@
             cursor: pointer;
             border-radius: .2rem;
             margin-top: 1rem;
-            color: $extraLight;
+            color: $font;
             opacity: .8;
         }
         button:hover {
             opacity: 1;
         }
         .add-btn {
-            background-color: $russianGreen;
+            background-color: $cardheader;
         }
         .clear-btn {
-            background-color: $vermillion;
+            background-color: $ratting;
         }
     }
 }

@@ -6,13 +6,14 @@
 }
 
 body {
-    background-color: $dark;
-    color: $extraLight;
+    background-color: $M-bg;
+    color: $font;
     h1 {
         font-size: 2.5rem;
     }
     a {
-        font-size: 1.3rem;
+        font-size: 1.5rem;
+        
         text-decoration: none;
         cursor: pointer;
     }
